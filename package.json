@@ -4,6 +4,7 @@
   "description": "Aulas de Query builder",
   "main": "index.js",
   "scripts": {
+    "knex": "node --import tsx ./node_modules/bin/knex",
     "dev": "tsx watch src/server.ts"
   },
   "author": "Rodrigo",
